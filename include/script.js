@@ -57,9 +57,9 @@ function fadeIn() {
 function refresh() {
     var i = 0;
     $(".server").each(function() {
-        //setTimeout(function() {
+        setTimeout(function() {
         	loadServer(i);
-        //}, i*10);
+        }, i*10);
         i++;
     });
 }
